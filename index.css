@@ -1,0 +1,410 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Building Header Section */
+
+.glass {
+  height: 100%;
+  background-color: rgba(225, 225, 225, 0.1) !important;
+  backdrop-filter: blur(30px) !important;
+}
+
+header {
+  height: 100vh;
+  width: auto;
+  background-color: whitesmoke;
+  background-image: url("https://media1.giphy.com/media/xT9IgwWOpd4sJVuDe0/giphy.gif?cid=ecf05e47dc8gdxs5n4dwi9hzmbrfna3li1h4rcgdrkrz5643&rid=giphy.gif&ct=g");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header-logo {
+  height: 80px;
+}
+
+.nav-link-item {
+  font-family: "Didact Gothic", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #4453c4 !important;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-item:active,
+.nav-link-item:hover {
+  border-bottom: 2px solid red;
+  cursor: pointer;
+}
+
+.stick {
+  position: fixed !important;
+  top: 0;
+  background-color: whitesmoke;
+  z-index: 999;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  padding-left: 450px;
+}
+
+.ul-li-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flag {
+  height: 25px;
+  margin-right: 5px;
+}
+
+.header-mid {
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 60%;
+}
+
+/* .header-mid h1 {
+  font-family: "Capriola", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 84px;
+  color: #4453c4 !important;
+  letter-spacing: 7px;
+  line-height: 1.3em;
+} */
+
+#sliding-1,
+#sliding-2,
+#sliding-3 {
+  font-family: "Capriola", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 84px;
+  color: #4453c4 !important;
+  letter-spacing: 7px;
+  line-height: 1.3em;
+}
+
+.header-h1-div {
+  text-align: center;
+}
+
+.whatsapp {
+  padding: 2px;
+}
+
+.whatsapp-link:link,
+.whatsapp-link:visited {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(63, 214, 63);
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp-link:hover,
+.whatsapp-link:active {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(67, 235, 67);
+  font-size: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp-logo {
+  height: 55px;
+  margin-top: 10px;
+}
+
+/* Building Promotion Section */
+
+.promotion-title {
+  padding-top: 150px;
+}
+
+.section--promotion {
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+.section--promotion h2 {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-family: "Capriola", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  color: #4453c4 !important;
+  letter-spacing: 7px;
+  line-height: 1.3em;
+  border-bottom: 2px solid red;
+}
+
+.big--card--margin {
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+.card--margin {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.card-image {
+  height: auto;
+}
+
+.section--promotion h4 {
+  font-family: "Capriola", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #4453c4 !important;
+  letter-spacing: 7px;
+  line-height: 1.3em;
+}
+
+.promotion--button:visited,
+.promotion--button:link {
+  background-color: #4453c4;
+  color: white;
+}
+
+.promotion--button:hover,
+.promotion--button:active {
+  color: red;
+}
+
+/* Building Products Section */
+
+.section--products,
+.section--services {
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+.section--products h2,
+.section--services h2 {
+  padding-top: 120px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "Capriola", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  color: #4453c4 !important;
+  letter-spacing: 7px;
+  line-height: 1.3em;
+  border-bottom: 2px solid red;
+
+  display: inline-block;
+}
+
+.section--products h3,
+.section--products h4,
+.section--services h3,
+.section--services h4 {
+  font-family: "Capriola", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+
+  color: #4453c4 !important;
+  letter-spacing: 7px;
+  line-height: 1.3em;
+}
+
+.section--products h3,
+.section--services h3 {
+  font-size: 50px;
+}
+
+.section--products h4,
+.section--services h4 {
+  font-size: 30px;
+}
+
+.section--products p,
+.section--services p {
+  font-family: "Capriola", Helvetica, Arial, Lucida, sans-serif;
+  text-align: justify;
+}
+
+.product-row {
+  border-bottom: 2px red solid;
+}
+
+/* Building Contact Section*/
+
+.section--contact {
+  height: 120vh;
+  background-color: whitesmoke;
+  position: relative;
+  z-index: 0;
+}
+
+.sub-section--contact--1 {
+  position: absolute;
+  background-color: #171728 !important;
+  z-index: 1;
+  width: 100%;
+  height: 80%;
+  bottom: 0;
+}
+
+.sub-section--contact--2 {
+  position: absolute;
+  top: 60px;
+  background-color: transparent;
+  z-index: 2;
+  width: 100%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col--1 {
+  background-color: transparent;
+}
+
+.col--2 {
+  background-color: transparent;
+}
+
+.col--1--1 {
+  background-color: #4f4fb8;
+  height: 100%;
+  padding: 150px;
+  padding-left: 48px;
+  padding-top: 70px;
+  color: white;
+}
+
+.col--1--1 h4 {
+  font-family: "Didact Gothic", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  font-size: 220%;
+  letter-spacing: 1px;
+}
+
+.col--2--1 {
+  background-color: transparent;
+  height: 100%;
+}
+
+.col--2--1 h4 {
+  color: #4453c4 !important;
+  font-family: "Didact Gothic", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  font-size: 250%;
+  letter-spacing: 1px;
+  margin-top: 100px;
+}
+
+.contact--me:link,
+.contact--me:visited {
+  text-decoration: none;
+  font-family: "Didact Gothic", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  color: white;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.5s;
+  padding-bottom: 3px;
+  font-size: 15px;
+}
+
+.contact--me:hover,
+.contact--me:active {
+  border-bottom: 2px solid red;
+}
+
+.team-1 {
+  color: white;
+  list-style: none;
+}
+
+.team-1 li {
+  padding: 5px;
+  border: 1px solid white;
+  margin: 5px;
+  font-weight: 600;
+}
+
+.team-whatsapp-margin {
+  margin-bottom: 90px;
+}
+
+.section--footer {
+  background-color: #171728 !important;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  z-index: 80;
+}
+
+.section--footer p {
+  margin-bottom: 0;
+  color: white;
+  padding-bottom: 25px;
+}
+
+.fixed--whatsapp {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  font-size: 50px;
+  text-align: center;
+  z-index: 2000;
+  background-color: #1db009;
+  border-radius: 50%;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 30%);
+  text-decoration: none;
+}
+
+.fixed--whatsapp:hover,
+.fixed--whatsapp:active {
+  color: whitesmoke;
+}
+
+.fixed--go--up {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  font-size: 50px;
+  text-align: center;
+  z-index: 2000;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  color: #4453c4;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 30%);
+  text-decoration: none;
+}
+
+.fixed--go--up:hover {
+  cursor: pointer;
+}
+
+.disclaimer {
+  text-align: justify;
+  color: white;
+  margin-top: 20px;
+  border: 2px solid white;
+  padding: 3px;
+}
